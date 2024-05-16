@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    padding: 10px 0;
+    background-image: url(../img/fundo-topo.jpg);
+
+}
+header h1{
+    margin: 0;
+    height: 84px;
+}
+nav{
+    text-align: center;
+    padding: 15px 0;
+}
+nav li{
+    display: inline;
+    padding-right: 27px ;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    background-position: center right;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: #6DD432;
+}
+/* Especifico Ids*/
+#itemContato{
+    background-image: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+/*Estilos em classe*/
+.fundo-verde{
+    background-color: #bdff9c;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0 ;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex-container .col{
+    width: 430px;
+}
