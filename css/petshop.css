@@ -58,3 +58,29 @@ nav a:hover{
 .flex-container .col{
     width: 430px;
 }
+.produtos{
+    width: 235px;
+}
+.produtos figure{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    /*Esquerdo topo direito rodape*/
+    padding: 0px;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+}
+.produto figure img{
+    vertical-align: middle;
+}
