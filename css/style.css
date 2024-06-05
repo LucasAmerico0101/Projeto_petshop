@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 10px 0;
+    background-image: url(../img/fundo-topo.jpg);
+}
+
+header, h1{
+    margin: 0;
+    height: 84px;
+}
+
+nav{
+    text-align: center;
+
+}
+
+nav li{
+    display: inline;
+    padding-right: 27px;
+    margin-right: 10px;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover{
+    color: #6DD432;
+} 
+
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6DD432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+iframe{
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+/* Especificos IDs */
+
+#ItemContato{
+    background-image: none;
+    padding-right: 0;
+    margin-right: 0;
+
+}
+#produto .flex-conteiner, #contato .flex-conteiner{
+    margin-top: 43px;
+}
+
+/* Estilos com Classe */
+
+.Fundo-Verde{
+    background-color:#bdff9c;
+
+}
+
+.conteiner{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flex-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-conteiner .col{
+    width: 430px;
+}
+
+.Produto{
+    width: 235px;
+}
+
+.Produto figure{
+    border: 1px solid #7c7b7b;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    /* Esquerdo topo direita rodapé */
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+}
+
+.Produto figure img{
+    vertical-align: middle;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
+
+.linha-verde {
+    border: 0;
+    height: 2px;
+    background: #bdff9c;
+    margin: 20px 0;
+}
+
+/*RODAPÉ*/
+
+footer {
+    background-color: #2c2c2c;
+    padding: 20px 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;    
+}
+footer p {
+    margin: 10px 0;
+}
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
